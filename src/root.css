@@ -68,6 +68,11 @@ html {
   color: #363636;
 }
 
+*:focus {
+  outline: none;
+  filter: brightness(2);
+}
+
 a.btn:is(:not(:last-of-type)) {
   margin-right: 1rem;
 }
