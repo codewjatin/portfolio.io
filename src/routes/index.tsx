@@ -11,7 +11,7 @@ type Featured = {
 export function routeData() {
   const [featured] = createResource(async () => {
     const response = await fetch(
-      `http://${import.meta.env.VITE_BASE_URL}/api/featured`
+      `${import.meta.env.VITE_BASE_URL}/api/featured`
     );
     return (await response.json()).data as Featured[];
   });
