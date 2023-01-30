@@ -45,6 +45,7 @@ export default function Projects() {
                 <div class="inset-image project-image mb-m">
                   <img
                     alt={project.name}
+                    loading="eager"
                     width={880}
                     height={495}
                     src={project.imageUrl}
@@ -82,15 +83,16 @@ export default function Projects() {
       </div>
       <div class="container-slim mx-auto">
         <div class="heading-group mb-m">
-          <h4>Acknowledgments</h4>
+          <h4 class="mb-s">Acknowledgments</h4>
           <div class="sub-heading mb-s">
-            Significant projects I worked on are inspired by a lot of other
-            projects.
+            I'd like to extend my gratitude to all the developers who have put
+            in hard work to create resources for others to learn from and build
+            stunning websites, as well as to contribute to open-source projects.
           </div>
           <p>
-            By this I would like to thank all the developers who worked hard to
-            create content for others to learn and create beautiful websites and
-            contribute to open source.
+            The sharing of knowledge and collaboration in the open-source
+            community is a fantastic way to advance technology. Keep up the good
+            work and continue making contributions!
           </p>
         </div>
       </div>

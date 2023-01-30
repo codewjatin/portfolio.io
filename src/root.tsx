@@ -65,9 +65,9 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <div class="topbar">
+            <nav class="topbar">
               <A href="/" end class="logo" />
-              <nav class="main-menu">
+              <div class="main-menu">
                 <For each={["Home", "About", "Projects"]}>
                   {(item) => {
                     const itemLower = item.toLowerCase();
@@ -82,8 +82,8 @@ export default function Root() {
                     );
                   }}
                 </For>
-              </nav>
-            </div>
+              </div>
+            </nav>
             <Routes>
               <FileRoutes />
             </Routes>
