@@ -13,7 +13,7 @@ type Projects = {
 export function routeData() {
   const [projects] = createResource(async () => {
     const response = await fetch(
-      `http://${import.meta.env.VITE_BASE_URL}/api/projects`
+      `${import.meta.env.VITE_BASE_URL}/api/projects`
     );
     return (await response.json()).data as Projects[];
   });
