@@ -145,7 +145,12 @@ export default function Home() {
                     class="tile-project mb-xs"
                     href={project.projectUrl}>
                     <div class="thumbnail">
-                      <img src={project.logo} alt={project.name} />
+                      <img
+                        height="64"
+                        width="64"
+                        src={project.logo}
+                        alt={project.name}
+                      />
                     </div>
                     <div class="detail">
                       <span class="title">{project.name}</span>

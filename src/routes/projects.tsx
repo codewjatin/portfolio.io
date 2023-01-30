@@ -47,7 +47,6 @@ export default function Projects() {
                     alt={project.name}
                     width={880}
                     height={495}
-                    loading="lazy"
                     src={project.imageUrl}
                   />
                 </div>

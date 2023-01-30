@@ -4,7 +4,8 @@ export default function About() {
       <div class="container-slim mx-auto content">
         <div class="inset-image about-cover-image mb-m">
           <img
-            loading="eager"
+            height="520"
+            width="880"
             src="/assets/img/about-cover.png"
             alt="Portrait of Dale"
           />
