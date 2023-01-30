@@ -192,6 +192,12 @@ p:last-child {
   border-bottom-color: #d9d9d9;
 }
 
+.content p.t-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 0;
+}
+
 .content p.t-stack a:is(:not(:last-of-type)) {
   margin-right: 1rem;
 }
@@ -473,6 +479,7 @@ body {
   }
   .inset-image img {
     max-width: 100%;
+    height: auto;
   }
 }
 
