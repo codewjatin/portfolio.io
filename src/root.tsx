@@ -66,7 +66,7 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <nav class="topbar">
-              <A href="/" end class="logo" />
+              <A href="/" end class="logo" tabindex={-1} />
               <div class="main-menu">
                 <For each={["Home", "About", "Projects"]}>
                   {(item) => {
