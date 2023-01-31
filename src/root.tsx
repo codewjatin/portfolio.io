@@ -1,7 +1,6 @@
 // @refresh reload
 import { For, Suspense } from "solid-js";
 import {
-  useLocation,
   Body,
   ErrorBoundary,
   FileRoutes,

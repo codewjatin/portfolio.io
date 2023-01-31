@@ -1,4 +1,4 @@
-import { createResource, For, lazy } from "solid-js";
+import { createResource, For } from "solid-js";
 import { useRouteData } from "solid-start";
 
 type Projects = {

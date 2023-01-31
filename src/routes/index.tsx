@@ -119,9 +119,10 @@ export default function Home() {
           </ul>
           <button
             onclick={(e) => {
-              e.currentTarget.innerText = "Copied!";
+              e.target.textContent = "Copied!";
+              navigator.clipboard.writeText("main.jatink@gmail.com");
               setTimeout(() => {
-                console.log(e.currentTarget.innerText);
+                e.target.textContent = "Email me";
               }, 100);
             }}
             class="btn">
