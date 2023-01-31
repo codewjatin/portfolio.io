@@ -20,8 +20,8 @@ export default function Root() {
     title: "Jatin Kumar - Software Developer",
     description:
       "Software Developer learning and building applications, softwares and interfaces.",
-    image: "/assets/cover.png",
-    url: "https://nextjs-headstart.vercel.app",
+    image: "/assets/img/cover.png",
+    url: "https://codewithjatin.com",
     type: "website",
   };
   return (
